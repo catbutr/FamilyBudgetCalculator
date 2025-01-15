@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IEnumerable<FamilyBudgetCalculator.Models.User>
+<div class="calculator_container">
+    <div class="calculator_sidebar">
+        <button>ds</button>
+        <nav class="navbar-nav-scroll">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.UserID</td>
+                    <td>@item.UserName</td>
+                </tr>
+            }
+        </nav>
+    </div>
+    <div class="calculator_main">Main</div>
+</div>
