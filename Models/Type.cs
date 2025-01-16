@@ -11,11 +11,11 @@ namespace FamilyBudgetCalculator.Models
         /// ID типа
         /// </summary>
         [Key]
-        public int CategoryID { get; set; }
+        public int TypeID { get; set; }
 
         /// <summary>
         /// Название типа
         /// </summary>
-        public string? CategoryName { get; set; }
+        public string? TypeName { get; set; }
     }
 }

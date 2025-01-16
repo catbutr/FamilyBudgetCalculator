@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,15 +39,15 @@
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|e:\\dotnetlibrary\\familybudgetcalculator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|E:\\DotNetLibrary\\FamilyBudgetCalculator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E6BC4704-E9EF-4620-AF5C-CE5594D05D29}|FamilyBudgetCalculator.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,13 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Models\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationContext.cs",
               "ToolTip": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Models\\ApplicationContext.cs",
               "RelativeToolTip": "Models\\ApplicationContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBQAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T10:52:42.475Z",
               "EditorCaption": ""
@@ -129,14 +129,14 @@
               "RelativeDocumentMoniker": "Models\\Type.cs",
               "ToolTip": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Models\\Type.cs",
               "RelativeToolTip": "Models\\Type.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T10:50:34.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Transaction.cs",
               "DocumentMoniker": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
@@ -144,25 +144,24 @@
               "RelativeToolTip": "Models\\Transaction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T10:19:45.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T10:19:45.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
               "ToolTip": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T10:19:33.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -170,8 +169,7 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T10:12:57.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T10:12:57.338Z"
             },
             {
               "$type": "Document",
@@ -183,25 +181,24 @@
               "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "ViewState": "AQIAAJAAAAAAAAAAAAAAAJkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-15T06:35:43.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T06:35:43.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBQAAAAJAAAA",
+              "ViewState": "AQIAAJwAAAAAAAAAAADwv6gAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T12:20:01.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\DotNetLibrary\\FamilyBudgetCalculator\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -209,8 +206,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T15:56:31.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T15:56:31.044Z"
             },
             {
               "$type": "Document",
@@ -222,8 +218,7 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-13T12:51:17.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T12:51:17.933Z"
             },
             {
               "$type": "Document",
@@ -235,8 +230,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T12:19:57.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T12:19:57.327Z"
             },
             {
               "$type": "Document",
@@ -248,8 +242,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-15T11:15:21.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T11:15:21.394Z"
             },
             {
               "$type": "Document",
@@ -261,8 +254,7 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T12:20:00.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T12:20:00.862Z"
             },
             {
               "$type": "Document",
@@ -274,8 +266,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-15T11:15:11.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T11:15:11.044Z"
             },
             {
               "$type": "Document",
@@ -287,8 +278,7 @@
               "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
               "ViewState": "AQIAAE4HAAAAAAAAAAAswGgHAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-14T09:38:59.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T09:38:59.741Z"
             },
             {
               "$type": "Document",
@@ -300,8 +290,7 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T09:38:31.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T09:38:31.046Z"
             },
             {
               "$type": "Document",
@@ -313,8 +302,7 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T09:39:15.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T09:39:15.757Z"
             },
             {
               "$type": "Document",
@@ -326,8 +314,7 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T06:06:52.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T06:06:52.676Z"
             },
             {
               "$type": "Document",
@@ -339,8 +326,7 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-14T06:06:47.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T06:06:47.554Z"
             },
             {
               "$type": "Document",
@@ -352,8 +338,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T16:13:41.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T16:13:41.658Z"
             },
             {
               "$type": "Document",
@@ -365,8 +350,7 @@
               "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
               "ViewState": "AQIAAL0FAAAAAAAAAAAqwMsFAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-14T09:35:13.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T09:35:13.819Z"
             },
             {
               "$type": "Document",
@@ -378,8 +362,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T15:58:57.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T15:58:57.395Z"
             },
             {
               "$type": "Document",
@@ -391,8 +374,7 @@
               "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-14T15:01:47.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T15:01:47.2Z"
             },
             {
               "$type": "Document",
@@ -404,8 +386,7 @@
               "RelativeToolTip": "wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-14T09:34:24.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T09:34:24.492Z"
             }
           ]
         }
