@@ -50,13 +50,13 @@ body {
     grid-column-start: 2;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 9;
+    grid-row-end: 4;
     border: 1px dashed
 }
-/*.calculator_footer {
-    grid-column-start: 1;
+.calculator_transactions {
+    grid-column-start: 2;
     grid-column-end: 9;
-    grid-row-start: 8;
+    grid-row-start: 4;
     grid-row-end: 9;
     border:1px dashed
-}*/
+}

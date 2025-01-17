@@ -1,12 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@model IEnumerable<FamilyBudgetCalculator.Models.User>
+@model FamilyBudgetCalculator.Models.IndexViewModel
 <div class="calculator_container">
     <div class="calculator_sidebar">
         <button>ds</button>
         <nav class="navbar-nav-scroll">
-            @foreach (var item in Model)
+            @foreach (var item in Model.Users.Where(p => p.UserID == 2))
             {
                 <tr>
                     <td>@item.UserID</td>
@@ -16,4 +16,26 @@
         </nav>
     </div>
     <div class="calculator_main">Main</div>
+    <div class="calculator_transactions">
+        Transactions
+        <table border="1">
+            <tr>
+                <th>Value</th>
+                <th>Type</th>
+                <th>Category</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                @foreach (var item in Model.Transactions)
+                {
+                <tr>
+                    <td>@item.TransactionAmount</td>
+                    <td>@Model.Types.FirstOrDefault(p => p.TypeID == item.TransactionTypeID).TypeName</td>
+                    <td>@Model.Categories.FirstOrDefault(p => p.CategoryID == item.TransactionCategoryID).CategoryName</td>
+                    <td>@item.TransactionTime</td>
+                </tr>
+                }
+            </tr>
+        </table>
+    </div>
 </div>

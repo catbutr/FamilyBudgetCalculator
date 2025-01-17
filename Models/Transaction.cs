@@ -28,5 +28,10 @@ namespace FamilyBudgetCalculator.Models
         /// ID пользователя, совершившего трансакцию
         /// </summary>
         public int TransactionUserID { get; set; }
+
+        /// <summary>
+        /// Время совершения трансакции
+        /// </summary>
+        public string? TransactionTime { get; set; }
     }
 }

@@ -17,9 +17,16 @@ namespace FamilyBudgetCalculator.Controllers
             db = context;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await db.Users.ToListAsync());
+            var newVM = new IndexViewModel
+            {
+                Categories = db.Categories.ToList(),
+                Types = db.Types.ToList(),
+                Transactions = db.Transactions.ToList(),
+                Users = db.Users.ToList()
+            };
+            return View(newVM);
         }
 
         public IActionResult Privacy()
