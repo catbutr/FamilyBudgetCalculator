@@ -50,7 +50,17 @@ namespace FamilyBudgetCalculator.Controllers
         {
             db.Users.Add(user);
             await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Users");
+        }
+
+        public IActionResult CreateUser()
+        {
+            return View();
+        }
+
+        public IActionResult Users()
+        {
+            return View(db.Users);
         }
 
         /// <summary>
@@ -63,13 +73,10 @@ namespace FamilyBudgetCalculator.Controllers
         {
             if (id != null)
             {
-                User? user = await db.Users.FirstOrDefaultAsync(p => p.UserID == id);
-                if (user != null)
-                {
-                    db.Users.Remove(user);
-                    await db.SaveChangesAsync();
-                    return RedirectToAction("Index");
-                }
+                User user = new User { UserID = id.Value };
+                db.Entry(user).State = EntityState.Deleted;
+                await db.SaveChangesAsync();
+                return RedirectToAction("Users");
             }
             return NotFound();
         }
@@ -100,7 +107,7 @@ namespace FamilyBudgetCalculator.Controllers
         {
             db.Users.Update(user);
             await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Users");
         }
 
         /// <summary>

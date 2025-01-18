@@ -14,8 +14,13 @@ namespace FamilyBudgetCalculator.Models
         public int UserID { get; set; }
 
         /// <summary>
-        /// Имя пользователя
+        /// Логин пользователя
         /// </summary>
         public string? UserName { get; set; }
+
+        /// <summary>
+        /// Пароль пользователя
+        /// </summary>
+        public string? UserPassword { get; set; }
     }
 }

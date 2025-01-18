@@ -1,0 +1,16 @@
+﻿@model FamilyBudgetCalculator.Models.User
+
+<h2>Добавление пользователя</h2>
+<form asp-action="CreateUser" asp-controller="home">
+    <p>
+        <label asp-for="UserName">Имя</label><br />
+        <input type="text" asp-for="UserName" />
+    </p>
+    <p>
+        <label asp-for="UserPassword">Пароль</label><br />
+        <input type="text" asp-for="UserPassword" />
+    </p>
+    <p>
+        <input type="submit" value="Отправить" />
+    </p>
+</form>

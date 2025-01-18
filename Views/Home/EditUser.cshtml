@@ -1,0 +1,12 @@
+﻿@model FamilyBudgetCalculator.Models.User
+
+<h2>Редактирование пользователя</h2>
+<form asp-action="EditUser" asp-controller="home" asp-route-UserID="@Model.UserID">
+    <p>
+        <label asp-for="UserName">Имя</label><br />
+        <input type="text" asp-for="UserName" />
+    </p>
+    <p>
+        <input type="submit" value="Отправить" />
+    </p>
+</form>
