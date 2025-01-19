@@ -1,0 +1,18 @@
+﻿@model IEnumerable<FamilyBudgetCalculator.Models.Type>
+
+<h2>Список пользователей</h2>
+<p><a asp-action="CreateTypePage">Добавить Тип</a></p>
+<table class="table">
+    <tr><th>Название Типа</th><th></th><th></th></tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.TypeName</td>
+            <td>
+                <form asp-action="DeleteType" asp-controller="Home" method="post" asp-route-id="@item.TypeID">
+                    <input type="submit" value="Удалить" />
+                </form>
+            </td>
+        </tr>
+    }
+    </table>

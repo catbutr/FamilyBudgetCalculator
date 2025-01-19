@@ -1,0 +1,16 @@
+﻿@model FamilyBudgetCalculator.Models.IndexViewModel
+
+<h2>Список пользователей</h2>
+<p><a asp-action="CreateTransactionPage">Добавить трансакцию</a></p>
+<table class="table">
+    <tr><th>Суммма</th><th>Тип</th><th>Категория</th><th>Время</th></tr>
+    @foreach (var item in Model.Transactions)
+    {
+        <tr>
+            <td>@item.TransactionAmount</td>
+            <td>@Model.Types.FirstOrDefault(p => p.TypeID == item.TransactionTypeID).TypeName</td>
+            <td>@Model.Categories.FirstOrDefault(p => p.CategoryID == item.TransactionCategoryID).CategoryName</td>
+            <td>@item.TransactionTime</td>
+        </tr>
+    }
+    </table>

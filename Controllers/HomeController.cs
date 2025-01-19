@@ -53,14 +53,14 @@ namespace FamilyBudgetCalculator.Controllers
             return RedirectToAction("Users");
         }
 
-        public IActionResult CreateUser()
+        public IActionResult CreateUserPage()
         {
-            return View();
+            return View("~/Views/Home/CreationPages/CreateUserPage.cshtml");
         }
 
         public IActionResult Users()
         {
-            return View(db.Users);
+            return View("~/Views/Home/ListPages/Users.cshtml", db.Users);
         }
 
         /// <summary>
@@ -120,7 +120,7 @@ namespace FamilyBudgetCalculator.Controllers
         {
             db.Categories.Add(category);
             await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Categories");
         }
 
         /// <summary>
@@ -133,15 +133,22 @@ namespace FamilyBudgetCalculator.Controllers
         {
             if (id != null)
             {
-                Category? category = await db.Categories.FirstOrDefaultAsync(p => p.CategoryID == id);
-                if (category != null)
-                {
-                    db.Categories.Remove(category);
-                    await db.SaveChangesAsync();
-                    return RedirectToAction("Index");
-                }
+                Category category = new Category { CategoryID = id.Value };
+                db.Entry(category).State = EntityState.Deleted;
+                await db.SaveChangesAsync();
+                return RedirectToAction("Categories");
             }
             return NotFound();
+        }
+
+        public IActionResult CreateCategoryPage()
+        {
+            return View("~/Views/Home/CreationPages/CreateCategoryPage.cshtml");
+        }
+
+        public IActionResult Categories()
+        {
+            return View("~/Views/Home/ListPages/Categories.cshtml", db.Categories);
         }
 
         /// <summary>
@@ -154,7 +161,7 @@ namespace FamilyBudgetCalculator.Controllers
         {
             db.Types.Add(type);
             await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Types");
         }
 
         /// <summary>
@@ -167,15 +174,22 @@ namespace FamilyBudgetCalculator.Controllers
         {
             if (id != null)
             {
-                Models.Type? type = await db.Types.FirstOrDefaultAsync(p => p.TypeID == id);
-                if (type != null)
-                {
-                    db.Types.Remove(type);
-                    await db.SaveChangesAsync();
-                    return RedirectToAction("Index");
-                }
+                Models.Type type = new Models.Type { TypeID = id.Value };
+                db.Entry(type).State = EntityState.Deleted;
+                await db.SaveChangesAsync();
+                return RedirectToAction("Types");
             }
             return NotFound();
+        }
+
+        public IActionResult CreateTypePage()
+        {
+            return View("~/Views/Home/CreationPages/CreateTypePage.cshtml");
+        }
+
+        public IActionResult Types()
+        {
+            return View("~/Views/Home/ListPages/Types.cshtml", db.Types);
         }
 
         /// <summary>
@@ -188,7 +202,26 @@ namespace FamilyBudgetCalculator.Controllers
         {
             db.Transactions.Add(transaction);
             await db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectToAction("Transactions");
+        }
+        public IActionResult CreateTransactionPage()
+        {
+            ViewBag.Categories = db.Categories.ToList();
+            ViewBag.Types = db.Types.ToList();
+            ViewBag.CurrentUser = 1;
+            return View("~/Views/Home/CreationPages/CreateTransactionPage.cshtml");
+        }
+
+        public IActionResult Transactions()
+        {
+            var newVM = new IndexViewModel
+            {
+                Categories = db.Categories.ToList(),
+                Types = db.Types.ToList(),
+                Transactions = db.Transactions.ToList(),
+                Users = db.Users.ToList()
+            };
+            return View("~/Views/Home/ListPages/Transactions.cshtml", newVM);
         }
 
     }

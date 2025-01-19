@@ -1,0 +1,12 @@
+﻿@model FamilyBudgetCalculator.Models.Category
+
+<h2>Название категории</h2>
+<form asp-action="CreateCategory" asp-controller="home">
+    <p>
+        <label asp-for="CategoryName">Название категории</label><br />
+        <input type="text" asp-for="CategoryName" />
+    </p>
+    <p>
+        <input type="submit" value="Отправить" />
+    </p>
+</form>
