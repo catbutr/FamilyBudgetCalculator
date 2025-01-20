@@ -1,6 +1,6 @@
 ﻿@model FamilyBudgetCalculator.Models.Transaction
 
-<h2>Добавление пользователя</h2>
+<h2>Создание трансакции</h2>
 <form asp-action="CreateTransaction" asp-controller="home" asp-route-TransactionUserID="@ViewBag.CurrentUser" asp-route-TransactionTime="@DateTime.Now.ToString("yyyy-MM-dd")">
     <p>
         <label asp-for="TransactionAmount">Сумма</label><br />
@@ -10,14 +10,14 @@
         <label asp-for="TransactionCategoryID">Категория</label><br />
         <select asp-for="TransactionCategoryID"
                 asp-items="@(new SelectList(ViewBag.Categories, nameof(Category.CategoryID), nameof(Category.CategoryName)))">
-            <option>Please select one</option>
+            <option>Выберите категорию</option>
         </select>
     </p>
     <p>
         <label asp-for="TransactionTypeID">Тип</label><br />
         <select asp-for="TransactionTypeID"
                 asp-items="@(new SelectList(ViewBag.Types, nameof(FamilyBudgetCalculator.Models.Type.TypeID), nameof(FamilyBudgetCalculator.Models.Type.TypeName)))">
-            <option>Please select one</option>
+            <option>Выбирите тип</option>
         </select>
     </p>
     <p>

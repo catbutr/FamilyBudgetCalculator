@@ -2,35 +2,75 @@
     ViewData["Title"] = "Home Page";
 }
 @model FamilyBudgetCalculator.Models.IndexViewModel
+@{
+    float profitSum = 0;
+    float expenseSum = 0;
+    float totalEarnings = 0;
+    float profitSumLastMonth = 0;
+    float expenseSumLastMonth = 0;
+    float totalEarningsLastMonth = 0;
+    float averageSpending = 0;
+}
 <div class="calculator_container">
-    <div class="calculator_sidebar">
-        <button>ds</button>
-        <nav class="navbar-nav-scroll">
-
-        </nav>
+    <div class="calculator_main">
+        <p>
+            @foreach(Transaction transaction in Model.Transactions.Where(p=>p.TransactionTypeID==1))
+            {
+                profitSum = profitSum + transaction.TransactionAmount;
+            }
+            Общий доход за весь период:@profitSum
+        </p>
+        <p>
+            @foreach (Transaction transaction in Model.Transactions.Where(p => p.TransactionTypeID == 2))
+            {
+                expenseSum = expenseSum + transaction.TransactionAmount;
+            }
+            Общие расходы за весь период:@expenseSum
+        </p>
+        <p>
+            Сальдо за весь период:@{
+                totalEarnings = profitSum - expenseSum;
+            } @totalEarnings
+        </p>
+        <p>
+            Средний чек за весь период:@{
+                averageSpending = expenseSum / (Model.Transactions.Where(p => p.TransactionTypeID == 2)).Count();
+            } @averageSpending
+        </p>
+        <p>
+            @foreach (Transaction transaction in Model.Transactions.Where(p => (p.TransactionTypeID == 1) && (DateTime.Parse(p.TransactionTime) < DateTime.Now.AddMonths(-1))))
+            {
+                profitSumLastMonth = profitSumLastMonth + transaction.TransactionAmount;
+            }
+            Общий доход за последний месяц:@profitSumLastMonth
+        </p>
+        <p>
+            @foreach (Transaction transaction in Model.Transactions.Where(p => p.TransactionTypeID == 2 && (DateTime.Parse(p.TransactionTime) < DateTime.Now.AddMonths(-1))))
+            {
+                expenseSumLastMonth = expenseSumLastMonth + transaction.TransactionAmount;
+            }
+            Общие расходы за последний месяц:@expenseSumLastMonth
+        </p>
+        <p>
+            Сальдо за последний месяц:@{
+                totalEarningsLastMonth = profitSumLastMonth - expenseSumLastMonth;
+            } @totalEarningsLastMonth
+        </p>
     </div>
-    <div class="calculator_main">Main</div>
     <div class="calculator_transactions">
         Transactions
-        <p><a asp-action="CreateUser">Добавить пользователя</a></p>
-        <table border="1">
-            <tr>
-                <th>Value</th>
-                <th>Type</th>
-                <th>Category</th>
-                <th>Time</th>
-            </tr>
-            <tr>
-                @foreach (var item in Model.Transactions.Where(p => p.TransactionUserID == Model.currentlySelectedUserID))
-                {
+        <p><a asp-action="CreateTransactionPage">Добавить трансакцию</a></p>
+        <table class="table">
+            <tr><th>Сумма</th><th>Тип</th><th>Категория</th><th>Время</th></tr>
+            @foreach (var item in Model.Transactions)
+            {
                 <tr>
                     <td>@item.TransactionAmount</td>
                     <td>@Model.Types.FirstOrDefault(p => p.TypeID == item.TransactionTypeID).TypeName</td>
                     <td>@Model.Categories.FirstOrDefault(p => p.CategoryID == item.TransactionCategoryID).CategoryName</td>
                     <td>@item.TransactionTime</td>
                 </tr>
-                }
-            </tr>
+            }
         </table>
     </div>
 </div>
